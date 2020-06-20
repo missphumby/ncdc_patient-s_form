@@ -1,0 +1,92 @@
+<html lang=en>
+
+<head>
+   <a meta charset="utf-8" />
+   <title>patients form</title>
+   <link rel="stylesheet" type="text/css" href="sheets/ncdc.css">
+</head>
+
+<body>
+
+   <form id="my-form" name="myform" type="text">
+      <div id="boxed" name="form"><br>
+         <label for="name">First Name:</label>
+         <input type="text" name="firstname" id="firstname"><br><br>
+         <label for="name">Last Name:</label>
+         <input type="text" name="lastname"><br><br>
+         <label for="email">Email Address:</label>
+         <input type="text" name="email"><br>
+         <label for="Gender">Gender</label>
+         <select name="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+         </select><br>
+         <input type="checkbox" name="visit" value="visit" style="font-size: 4px,">Recently came to Nigeria within the last 14 days?<br><br>
+         <div id="message" style="color:red"></div>
+         <button type="button" id="submit" style="margin-left: 120px">submit</button>
+      </div><br><br>
+
+      <table>
+         <thead>
+            <tr>
+               <th>Name</th>
+               <th>Email Address</th>
+               <th>Gender</th>
+               <th>Came to Nigeria within the last 14 days</th>
+               <th></th>
+               <th></th>
+            </tr>
+         </thead>
+         <tbody id="tbody">
+
+         </tbody>
+
+         <!-- <tr>
+            <td id="names"></td>
+            <td id="emailadd"></td>
+            <td>Male</td>
+            <td>No</td>
+            <td><input type="button" name="Edit" value="Edit"></td>
+            <td><input type="button" name="Delete" value="Delete"></td>
+         </tr>
+         <tr>
+            <td id="names"></td>
+            <td id="emailadd"></td>
+            <td>Male</td>
+            <td>yes</td>
+            <td><input type="button" name="Edit" value="Edit"></td>
+            <td><input type="button" name="Delete" value="Delete"></td>
+         </tr>
+         <tr>
+            <td id="names"></td>
+            <td id=emailadd"></td>
+            <td>Male</td>
+            <td>No</td>
+            <td><input type="button" name="Edit" value="Edit"></td>
+            <td><input type="button" name="Delete" value="Delete"></td>
+         </tr>
+         <tr>
+            <td id="names"></td>
+            <td id="emailadd"></td>
+            <td>Male</td>
+            <td>Edit</td>
+            <td><input type="button" name="Edit" value="Edit" class="open"></td>
+            <td><input type="button" name="Delete" value="Delete"></td>
+         </tr> -->
+
+      </table>
+
+   </form>
+
+
+
+<!--
+   <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
+      crossorigin="anonymous"></script>
+-->
+   <script src="script/ncdcs.js"></script>
+
+
+</body>
+
+</html>
